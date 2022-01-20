@@ -1,0 +1,171 @@
+/* Import Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@700&display=swap");
+
+body {
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/* Checkout Section */
+.checkout-product {
+  margin-top: 30px;
+}
+.checkout-product h1 {
+  font-size: 2.5rem;
+}
+.checkout-product p {
+  font-size: 1rem;
+}
+
+.checkout-product .btn-plus {
+  background-color: #ff6a28;
+  color: #ffffff;
+}
+.checkout-product .btn-minus {
+  color: #ff6a28;
+  background-color: #d5dadf;
+}
+.checkout-product .btn-delete {
+  background-color: #d75f2a;
+  color: #ffffff;
+}
+
+.product-list {
+  margin-bottom: 20px;
+}
+
+.payment-detail {
+  background-color: #1e2022;
+  padding: 20px;
+}
+.payment-detail h1 {
+  font-size: 1.75rem;
+}
+
+.payment-btn .btn {
+  padding: 0.625rem 2.625rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.payment-btn .btn-cancel {
+  background-color: #ffffff;
+  color: #ff6a28;
+}
+.payment-btn .btn-add-to-cart {
+  color: #ffffff;
+  background-color: #ff6a28;
+}
+
+/* Large Devices */
+@media (max-width: 1200px) {
+  .product-list h4 {
+    font-size: 1.25rem;
+  }
+  .product-list p {
+    font-size: 0.9rem;
+  }
+  .checkout-product .btn-plus,
+  .checkout-product .btn-minus {
+    padding: 0.25rem 0.6rem;
+  }
+
+  .payment-btn .btn {
+    padding: 0.6rem 2.2rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+  }
+  .payment-detail h1 {
+    font-size: 1.75rem;
+  }
+  .payment-detail h5 {
+    font-size: 1.25rem;
+  }
+  .product-list p,
+  .payment-detail p {
+    font-size: 1rem;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 576px) {
+  .checkout-product h1,
+  .checkout-message h1,
+  .payment-detail h1 {
+    font-size: 1.25rem;
+  }
+
+  .checkout-message p,
+  .product-list p,
+  .payment-detail p {
+    font-size: 0.85rem;
+  }
+  .product-list h4,
+  .payment-detail h5 {
+    font-size: 1rem;
+  }
+  .payment-btn .btn {
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* Akhir Checkout Section */
+
+/* Modal */
+.modal .btn {
+  background-color: #ffffff;
+  color: #ff6a28;
+}
+.modal-header {
+  border: none;
+}
+.modal-header .close {
+  background-color: #d75f2a;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* Small Devices */
+@media (max-width: 576px) {
+  .modal-body img {
+    transform: scale(0.5);
+  }
+  .modal-body h3 {
+    font-size: 1.1rem;
+  }
+  .modal-body p {
+    font-size: 0.85rem;
+  }
+}
+/* Akhir Modal */
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+}
+
+.footer .row .navlink a {
+  color: #171717;
+}
+
+/* Small Devices */
+@media (max-width: 576px) {
+  .footer .icon-logo a img,
+  .footer .social-media a img {
+    transform: scale(0.75);
+  }
+}
+
+/* Akhir Footer */

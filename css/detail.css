@@ -1,0 +1,300 @@
+/* Import Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@700&display=swap");
+
+body {
+  background-color: #f8f8f8;
+}
+
+h1,
+h3 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-item .nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #171717 !important;
+  margin: 0 16px;
+}
+
+.nav-item.active .nav-link {
+  font-weight: 700;
+}
+
+.user-info .cart-info {
+  margin-right: 30px;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .nav-item .nav-link {
+    font-size: 0.875rem;
+    margin: 0 10px;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+  .nav-item .nav-link {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+}
+/* Akhir Navbar */
+
+/* Section Detail Product */
+.detail-product {
+  margin-top: 100px;
+}
+
+.detail-product .thumb-pic img {
+  margin-bottom: 20px;
+}
+
+.detail-desc .product-name h1 {
+  font-size: 2.5rem;
+}
+
+.detail-desc p {
+  font-size: 1rem;
+}
+
+a .color {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+a .color-1 {
+  background-color: #0a0d12;
+}
+a .color-2 {
+  background-color: #263348;
+}
+a .color-3 {
+  background-color: #3c5071;
+}
+
+a .size {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid #171717;
+  background: transparent;
+  text-align: center;
+  color: #171717;
+}
+
+.form-group .quantity-input {
+  width: 350px !important;
+}
+
+.form-group .btn-plus {
+  background-color: #ff6a28;
+  color: #ffffff;
+}
+.form-group .btn-minus {
+  color: #ff6a28;
+  background-color: #d5dadf;
+}
+
+.product-button .btn {
+  padding: 0.8125rem 1.875rem;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+}
+.product-button .btn-wishlist {
+  background-color: #ffffff;
+  color: #ff6a28;
+}
+.product-button .btn-add {
+  color: #ffffff;
+  background-color: #ff6a28;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .detail-product .thumb-pic {
+    margin-top: 20px;
+  }
+
+  .detail-desc .product-name h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 576px) {
+  .detail-product {
+    margin-top: 0;
+  }
+  .detail-product .big-pic img {
+    transform: scale(0.75);
+    margin-left: 0;
+  }
+  .detail-product .thumb-pic {
+    margin-top: -50px;
+  }
+  .detail-product .thumb-pic img {
+    transform: scale(0.75);
+    margin-left: -10px;
+  }
+  .product-button .btn {
+    padding: 0.8rem 1.6rem;
+    font-size: 0.85rem;
+  }
+
+  .detail-desc h1 {
+    font-size: 2rem;
+  }
+  .detail-desc h3 {
+    font-size: 1.5rem;
+  }
+  .detail-desc p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Akhir Secton Detail Product */
+
+/* Section Product Description */
+.product-description {
+  margin-top: 100px;
+}
+
+.product-description h1 {
+  font-size: 2.5rem;
+}
+.product-description p {
+  font-size: 1.25rem;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .product-description h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+  .product-description h1 {
+    font-size: 2rem;
+  }
+  .product-description p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Akhir Section Product Description */
+
+/* Section Review */
+.reviews {
+  margin-top: 100px;
+}
+
+.reviews h1 {
+  font-size: 2.5rem;
+}
+
+.card {
+  margin-bottom: 25px;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .reviews h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+  .reviews h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Akhir Section Review */
+
+/* Section Best Sellers & Collections*/
+
+.collections {
+  margin-top: 80px;
+}
+
+.collections .card {
+  margin-top: 20px;
+  border: none;
+}
+
+.collections .card .card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.collections .card .card-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.collections h1 {
+  font-size: 2.5rem;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .collections h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+  .collections h1 {
+    font-size: 2rem;
+  }
+
+  .collections p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Akhir Section Best Sellers & Collections*/
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+}
+
+.footer .row .navlink a {
+  color: #171717;
+}
+
+/* Small Devices */
+@media (max-width: 576px) {
+  .footer .icon-logo a img,
+  .footer .social-media a img {
+    transform: scale(0.75);
+  }
+}
+
+/* Akhir Footer */

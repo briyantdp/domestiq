@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/checkout.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Section Checkout & Payment -->
+    <div class="container checkout-product">
+      <div class="row">
+        <div class="col-12 checkout-message text-center">
+          <h1>Your Cart</h1>
+          <p>Make sure your cart before pay them !</p>
+        </div>
+        <div class="col-lg-7 col-12">
+          <h1 class="mb-3">Your Items</h1>
+          <div class="row p-2 bg-white align-items-center rounded product-list">
+            <div class="col-md-2 col-3">
+              <img src="asset/images/checkout/checkout_pic1.png" />
+            </div>
+            <div class="col-md-5 col-9">
+              <h4 class="mb-0">H&M Dark Formal</h4>
+              <p>IDR 4.000.000</p>
+            </div>
+            <div class="col-md-4 offset-md-0 col-6 offset-3">
+              <button class="btn btn-plus">+</button>
+              <span class="mx-md-3 mx-2">2</span>
+              <button class="btn btn-minus">-</button>
+            </div>
+            <div class="col-md-1 col-2">
+              <button class="btn btn-delete">x</button>
+            </div>
+          </div>
+          <div class="row p-2 bg-white align-items-center rounded product-list">
+            <div class="col-md-2 col-3">
+              <img src="asset/images/checkout/checkout_pic2.png" />
+            </div>
+            <div class="col-md-5 col-9">
+              <h4 class="mb-0">Moslemah LV</h4>
+              <p>IDR 1.250.000</p>
+            </div>
+            <div class="col-md-4 offset-md-0 col-6 offset-3">
+              <button class="btn btn-plus">+</button>
+              <span class="mx-md-3 mx-2">1</span>
+              <button class="btn btn-minus">-</button>
+            </div>
+            <div class="col-md-1 col-2">
+              <button class="btn btn-delete">x</button>
+            </div>
+          </div>
+          <div class="row p-2 bg-white align-items-center rounded product-list">
+            <div class="col-md-2 col-3">
+              <img src="asset/images/checkout/checkout_pic3.png" />
+            </div>
+            <div class="col-md-5 col-9">
+              <h4 class="mb-0">Uniqlo Mystique</h4>
+              <p>IDR 5.250.000</p>
+            </div>
+            <div class="col-md-4 offset-md-0 col-6 offset-3">
+              <button class="btn btn-plus">+</button>
+              <span class="mx-md-3 mx-2">3</span>
+              <button class="btn btn-minus">-</button>
+            </div>
+            <div class="col-md-1 col-2">
+              <button class="btn btn-delete">x</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 offset-lg-1 col-12 payment-detail text-white rounded"
+        >
+          <h1 class="mb-4">Payment Detail</h1>
+          <div class="product-price-detail d-flex justify-content-between">
+            <div class="product-item">
+              <h5 class="mb-0">H&M Dark Formal</h5>
+              <p>2 items</p>
+            </div>
+            <div class="product-price">
+              <h5 class="mb-0">IDR 4.000.000</h5>
+            </div>
+          </div>
+          <div class="product-price-detail d-flex justify-content-between">
+            <div class="product-item">
+              <h5 class="mb-0">Moslemah LV</h5>
+              <p>1 item</p>
+            </div>
+            <div class="product-price">
+              <h5 class="mb-0">IDR 1.250.000</h5>
+            </div>
+          </div>
+          <div class="product-price-detail d-flex justify-content-between">
+            <div class="product-item">
+              <h5 class="mb-0">Uniqlo Mystique</h5>
+              <p>3 items</p>
+            </div>
+            <div class="product-price">
+              <h5 class="mb-0">IDR 5.250.000</h5>
+            </div>
+          </div>
+          <hr class="bg-white" />
+          <div class="product-total-price d-flex justify-content-between">
+            <div class="total-price-text">
+              <h5 class="mb-0">Total Price</h5>
+            </div>
+            <div class="product-price">
+              <h5 class="mb-0">IDR 10.500.000</h5>
+            </div>
+          </div>
+          <div
+            class="
+              payment-btn
+              mt-5
+              d-flex
+              justify-content-lg-between justify-content-end
+            "
+          >
+            <a href="detail.html" class="btn btn-cancel mr-1 mr-xl-0">Cancel</a>
+            <button
+              type="button"
+              class="btn btn-add-to-cart"
+              data-toggle="modal"
+              data-target="#checkoutModal"
+            >
+              Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Checkout & Payment -->
+
+    <!-- Success Checkout Modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="checkoutModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="checkoutModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content p-3">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <img
+              src="asset/images/checkout/success_checkout_icon.png"
+              class="mb-md-4 mb-2"
+            />
+            <h3>Completed !</h3>
+            <p>
+              You will receive your stuff next time ! Order again if you want !
+            </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <a href="index.html" class="btn btn-back">Back to Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Akhir Success Checkout Modal -->
+
+    <!-- Footer -->
+    <div class="container footer">
+      <div class="row justify-content-between">
+        <div class="col-1 icon-logo">
+          <a href="#">
+            <img src="./asset/icons/logo.png" />
+          </a>
+        </div>
+        <div
+          class="
+            col-5 col-md-4 col-lg-3
+            social-media
+            d-flex
+            justify-content-end
+          "
+        >
+          <a href="#">
+            <img src="./asset/icons/facebook_icon.png" class="ml-md-4 ml-2" />
+          </a>
+          <a href="#">
+            <img src="./asset/icons/twitter_icon.png" class="ml-md-4 ml-2" />
+          </a>
+          <a href="#">
+            <img src="./asset/icons/instagram_icon.png" class="ml-md-4 ml-2" />
+          </a>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-7 col-lg-6 copyright">
+          <p>
+            All Rights Reserved by
+            <span class="font-weight-bold">Domestic</span> Copyright 2021
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-6 navlink d-lg-flex justify-content-lg-end">
+          <a href="#" class="ml-lg-4 mr-3 mr-lg-0">Jobs</a>
+          <a href="#" class="ml-lg-4 mr-3 mr-lg-0">Developer</a>
+          <a href="#" class="ml-lg-4 mr-3 mr-lg-0">Terms</a>
+          <a href="#" class="ml-lg-4 mr-3 mr-lg-0">Privacy & Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Akhir footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="./js/all.js"></script>
+  </body>
+</html>

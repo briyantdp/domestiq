@@ -1,0 +1,205 @@
+/* Import Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@700&display=swap");
+
+body {
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-item .nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #171717 !important;
+  margin: 0 16px;
+}
+
+.nav-item.active .nav-link {
+  font-weight: 700;
+}
+
+.user-info .cart-info {
+  margin-right: 30px;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .nav-item .nav-link {
+    font-size: 0.85rem;
+    margin: 0 10px;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+  .nav-item .nav-link {
+    font-size: 0.8rem;
+    margin: 0 0;
+  }
+}
+/* Akhir Navbar */
+
+/* Slider */
+.carousel {
+  margin-top: 100px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../asset/icons/left_arrow.png) !important;
+}
+.carousel-control-next-icon {
+  background-image: url(../asset/icons/right_arrow.png) !important;
+}
+
+.carousel-item .slider-desc h1 {
+  font-size: 2.5rem;
+}
+.carousel-item .slider-desc p {
+  font-size: 1rem;
+}
+
+.carousel-item .slider-desc .btn {
+  padding: 0.8125rem 3.125rem;
+  border-radius: 0.5rem;
+  background-color: #ff6a28;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  margin-top: 50px;
+}
+.carousel-item .slider-desc .btn:hover {
+  background-color: #f25d1a;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .carousel-item .slider-desc h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+  .carousel-control-prev-icon {
+    margin-left: 0;
+  }
+
+  .carousel-item .slider-desc {
+    width: 350px;
+  }
+
+  .carousel-item .slider-desc h1 {
+    font-size: 2rem;
+  }
+  .carousel-item .slider-desc p {
+    font-size: 0.85rem;
+  }
+}
+/* Akhir Slider */
+
+/* Section Brands */
+.brands {
+  margin-top: 80px;
+}
+
+.brands .brand {
+  opacity: 0.5;
+  margin-top: 20px;
+}
+.brands .brand:hover {
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+/* Akhir Section Brands */
+
+/* Section Best Sellers & Collections*/
+.best-sellers,
+.collections {
+  margin-top: 80px;
+}
+.best-sellers h1,
+.collections h1 {
+  font-size: 2.5rem;
+}
+.best-sellers p,
+.collections p {
+  font-size: 1.25rem;
+}
+
+.best-sellers .card,
+.collections .card {
+  margin-top: 20px;
+  border: none;
+}
+
+.best-sellers .card .card-title,
+.collections .card .card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.best-sellers .card .card-text,
+.collections .card .card-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+/* Medium Devices */
+@media (max-width: 992px) {
+  .best-sellers h1,
+  .collections h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+  .best-sellers h1,
+  .collections h1 {
+    font-size: 2rem;
+  }
+  .best-sellers p,
+  .collections p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Akhir Section Best Sellers & Collections*/
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+}
+
+.footer .row .navlink a {
+  color: #171717;
+}
+
+/* Small Devices */
+@media (max-width: 576px) {
+  .footer .icon-logo a img,
+  .footer .social-media a img {
+    transform: scale(0.75);
+  }
+}
+
+/* Akhir Footer */
