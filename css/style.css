@@ -72,9 +72,11 @@ p {
 
 .carousel-item .slider-desc h1 {
   font-size: 2.5rem;
+  margin-bottom : 20px;
 }
 .carousel-item .slider-desc p {
   font-size: 1rem;
+  margin-bottom : 20px;
 }
 
 .carousel-item .slider-desc .btn {
@@ -83,7 +85,7 @@ p {
   background-color: #ff6a28;
   font-family: "Inter", sans-serif;
   font-size: 1.25rem;
-  margin-top: 50px;
+  margin-bottom : 20px;
 }
 .carousel-item .slider-desc .btn:hover {
   background-color: #f25d1a;
@@ -111,6 +113,15 @@ p {
   }
   .carousel-item .slider-desc p {
     font-size: 0.85rem;
+  }
+
+  .carousel-item .slider-desc .btn {
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #ff6a28;
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom : 20px;
   }
 }
 /* Akhir Slider */
